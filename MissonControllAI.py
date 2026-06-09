@@ -2,7 +2,7 @@ print("============================================================")
 print("MISSION CONTROL AI")
 print("============================================================")
 print("Missão: Missão Artemis")
-print("Equipe: Artemis")
+print("Equipe: S.E.E.D")
 
 areas_monitoradas = [
     "Temperatura interna",
@@ -20,15 +20,7 @@ dados_missao = [
     [42, 52, 17, 30, 33],
     [29, 68, 90, 90, 74]
 ]
-
-
 print()
-
-
-# =========================
-# FUNÇÕES
-# =========================
-
 # Temperatura
 def verificar_temperatura(valor):
 
@@ -43,7 +35,6 @@ def verificar_temperatura(valor):
 
     else:
         return "CRITICO", 2
-
 
 # comunicação
 def verificar_comunicacao(valor):
@@ -110,10 +101,6 @@ def classificar_missao(pontos_total):
         return "MISSÃO CRÍTICA"
 
 
-# =========================
-# VARIÁVEIS
-# =========================
-
 total_temp = 0
 total_com = 0
 total_bat = 0
@@ -131,11 +118,6 @@ ciclo_mais_critico = 0
 
 total_risco_missao = 0
 ciclos_criticos = 0
-
-
-# =========================
-# CICLOS
-# =========================
 
 for ciclo, i in enumerate(dados_missao, start=1):
 
@@ -239,12 +221,7 @@ for ciclo, i in enumerate(dados_missao, start=1):
         for r in recomendacoes:
             print("-", r)
 
-
-
-
-# =========================
-# RELATÓRIO FINAL
-# =========================
+#Relatório
 print()
 print("============================================================")
 print("RELATÓRIO FINAL DA MISSÃO")
