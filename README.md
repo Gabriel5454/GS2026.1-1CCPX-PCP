@@ -6,7 +6,7 @@ O Mission Control AI é um sistema criado em Python com a finalidade de reproduz
 
 Missão Artemis
 
-Equipe: Artemis
+Equipe: S.E.E.D
 
 # Contexto do Projeto
 
